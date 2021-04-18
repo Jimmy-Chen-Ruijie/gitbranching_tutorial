@@ -19,7 +19,7 @@ month_to_days = {"01": 0, "02": 31, "03": 59, "04": 90, "05": 120, "06": 151, "0
 def takeThird(elem):
     return elem[3]
 
-
+#add an extra comment to create merging conflict
 new_lines_merged = []
 for dataset in dataset_list:
     new_lines = []
@@ -68,13 +68,12 @@ for line in new_lines_merged:
 with open(os.path.join(os.getcwd(), "processed_dataset", "dataset.txt"), 'w', encoding='utf-8') as f:
     for line in new_lines_merged_glued:
         f.write(line)
-
-        
-        
+    
         
 #new functionality added
 def split_file():
     pass
+
 
 #2nd functionality added
 def split_file_2():
