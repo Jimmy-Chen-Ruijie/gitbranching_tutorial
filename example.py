@@ -73,6 +73,10 @@ with open(os.path.join(os.getcwd(), "processed_dataset", "dataset.txt"), 'w', en
 def split_file():
     pass
 
+#2nd functionality added
+def split_file_2():
+    pass
+
 
 
 
