@@ -77,6 +77,10 @@ def split_file():
 def split_file_2():
     pass
 
+#3rd functionality added
+def split_file_3():
+    pass
+
 
 
 
