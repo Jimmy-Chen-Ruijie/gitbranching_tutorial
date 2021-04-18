@@ -52,6 +52,11 @@ for dataset in dataset_list:
         for line in new_lines_glued:
             f.write(line)
 
+
+
+
+
+
 # merge three files together in chronological order
 new_lines_merged_glued = []
 glue = '\t'
@@ -63,6 +68,15 @@ for line in new_lines_merged:
 with open(os.path.join(os.getcwd(), "processed_dataset", "dataset.txt"), 'w', encoding='utf-8') as f:
     for line in new_lines_merged_glued:
         f.write(line)
+
+#new functionality added
+def split_file():
+    pass
+
+#2nd functionality added
+def split_file_2():
+    pass
+
 
 
 
