@@ -68,6 +68,11 @@ for line in new_lines_merged:
 with open(os.path.join(os.getcwd(), "processed_dataset", "dataset.txt"), 'w', encoding='utf-8') as f:
     for line in new_lines_merged_glued:
         f.write(line)
+    
+        
+#new functionality added
+def split_file():
+    pass
 
 
 #2nd functionality added
@@ -78,6 +83,8 @@ def split_file_2():
 def split_file_3():
     pass
 
-
+#4th functionality added
+def split_file_4():
+    pass
 
 
